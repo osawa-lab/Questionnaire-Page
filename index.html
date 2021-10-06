@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html　lang="ja">
+<meta charset="UTF8">
+<link rel="stylesheet" href="index.css">
+<head>
+  <title>エージェント作成のための調査</title>
+</head>
+
+<body>
+  <h1>はじめに</h1>
+  <p>今回の実験にご協力いただきありがとうございます。</p>
+  <p>今回の実験は日本大学文理学部大澤研究室の研究の一環で、仮想空間上における購買行動の調査となります。</p>
+  <p>「実験開始」をクリックするとアンケートが開始されますので、アンケートの説明に従い進めてください。</p>
+  <div class=container>
+    <script>
+      var l=[];
+      l[0] = "<a href = 'https://forms.gle/7wXS8HXf1FGBfFbb6'>実験開始</a>";
+      l[1] = "<a href = 'https://forms.gle/qnzsFxFHdbSg2WiT7'>実験開始</a>";
+      var x;
+      x = Math.floor(Math.random()*2);
+      document.write(l[x]);
+    </script>
+  </div>
+</body>
+</html>
